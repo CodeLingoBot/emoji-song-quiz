@@ -3,14 +3,9 @@
     "type": "project",
     "description": "A web app for quiz-masters to organise Emoji Song Quizzes with.",
     "keywords": [
-        "web-app",
-        "emoji",
-        "quiz",
-        "song",
-        "song quiz",
-        "emoji quiz",
-        "emoji song quiz"
-        "laravel"
+        "emoji quiz", "emoji song quiz", "emoji", "quiz", "song quiz", "song",
+        "laravel", "web app", "web", "app", "web-app",
+        "potherca"
     ],
     "license": "GPL-3.0",
     "require": {
@@ -20,12 +15,14 @@
         "laravel/tinker": "^1.0"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.2",
         "beyondcode/laravel-dump-server": "^1.0",
         "filp/whoops": "^2.0",
         "fzaninotto/faker": "^1.4",
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^2.0",
-        "phpunit/phpunit": "^7.0"
+        "phpunit/phpunit": "^7.0",
+        "sempro/phpunit-pretty-print": "^1.0"
     },
     "config": {
         "optimize-autoloader": true,
@@ -40,7 +37,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "": "database/seeds",
+            "": "database/seeds"
         },
         "classmap": [
             "database/factories"
